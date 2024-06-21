@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int m,n;
+        m=s.nextInt();
+        n=s.nextInt();
+        int c=m*n;
+        if(c>1000)
+        {
+            int d=m+n;
+            System.out.println(d);
+        }
+        else
+        {
+            System.out.println(c);
+        }
+    }
+        }
+      
